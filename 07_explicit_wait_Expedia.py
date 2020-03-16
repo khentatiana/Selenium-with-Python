@@ -31,8 +31,8 @@ travelers = browser.find_element_by_id("traveler-selector-hp-flight").click()
 search_btn = browser.find_element_by_class_name("btn-primary.btn-action.gcw-submit").click()
 
 assert "SFO to NYC Flights | Expedia" in browser.title
-#explicit wait
 
+#explicit wait
 wait = WebDriverWait(browser, 10)
 nonstop_checkbox = wait.until(EC.element_to_be_clickable((By.ID, "stopFilter_stops-0")))
 nonstop_checkbox.click()
