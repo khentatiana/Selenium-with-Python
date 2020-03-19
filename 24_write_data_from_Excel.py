@@ -11,7 +11,7 @@ for r in range(1, 4): # will create 3 rows = 4 - 1
         sheet.cell(row=1, column=2).value = "Client_Name"
         sheet.cell(row=1, column=3).value = "Client_Last Name"
         sheet.cell(row=2, column=1).value = "1001"
-        sheet.cell(row=2, column=2).value = "Tatiana"
+        sheet.cell(row=2, column=2).value = "Grigori"
         sheet.cell(row=2, column=3).value = "Barbachov"
 
 workbook.save(path)
