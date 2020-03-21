@@ -12,6 +12,6 @@ class Assertion_Not_Equal(unittest.TestCase):
         self.driver.get(link)
         title = self.driver.title
 
-        self.assertNotEqual("Google", title, "if FALSE (meaning equal), then will see this message")
+        self.assertTrue("Bing"== title, "if FALSE (meaning equal), then will see this message")
 if __name__ == "__main__":
     unittest.main()
