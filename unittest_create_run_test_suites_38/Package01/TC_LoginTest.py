@@ -1,16 +1,17 @@
 import unittest
 
+
 class LoginTest(unittest.TestCase):
     def test_LoginByEmail(self):
-        print("This is login by email test")
+        print("\nThis is login by email test")
         self.assertTrue(True)
 
     def test_LoginByFacebook(self):
-        print("This is login by Facebook test")
+        print("\nThis is login by Facebook test")
         self.assertTrue(True)
 
     def test_ByTwitter(self):
-        print("his is login by Twitter test")
+        print("\nThis is login by Twitter test")
         self.assertTrue(True)
 
 
